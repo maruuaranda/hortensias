@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Proyecto Hortensias-Aranda_SASSI",
+		"liveServer.settings.port": 5501
+	}
+}

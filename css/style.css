@@ -1,0 +1,168 @@
+@charset "UTF-8";
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100%;
+  background-color: #ffb78a; }
+
+p, form {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 10px; }
+
+input {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 4px; }
+
+h1 {
+  font: "Roboto", Sans-serif;
+  text-shadow: 2mm;
+  margin: 10px;
+  color: black;
+  width: 100%; }
+
+h2 {
+  font-family: "Roboto", Sans-serif;
+  justify-self: center;
+  margin: 50px;
+  font-size: 40px; }
+
+h3 {
+  font-family: "Roboto", Sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #543929; }
+
+ul {
+  font-style: italic; }
+
+footer {
+  font-style: italic;
+  color: #543929;
+  background-color: white;
+  height: 100px; }
+
+body {
+  background-color: #ffeade; }
+
+/* Class and ID */
+/*Etiquetas Menú*/
+.navbar {
+  background-color: white;
+  min-height: 100px;
+  padding: 0px;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+.nav-link {
+  margin-right: 15px;
+  color: black; }
+
+.nav-link:hover {
+  color: black; }
+
+.navbar-toggler {
+  font-size: 12px; }
+
+.navbar-toggler:focus {
+  outline: none; }
+
+/*Etiquetas de home*/
+.text-warning {
+  color: #ff7729; }
+
+.homeImg {
+  width: 100%;
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.productInfo2 {
+  grid-column: 2;
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+.productInfo3 {
+  grid-column: 3;
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+.productInfo4 {
+  grid-column: 4;
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*Etiquetas de Maps*/
+.map-container-5 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.map-container-5 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.map {
+  margin: 15px; }
+
+/*Etiquetas formulario*/
+.formlabel {
+  background-color: #f8f8f8; }
+
+.formbutton {
+  color: #bcb3d8;
+  background-color: #4f3879; }
+
+/*Etiquetas imágenes y logos*/
+.icon {
+  height: 50px;
+  margin: 1px 1px; }
+
+.icons {
+  text-align: center; }
+
+.productImage {
+  height: 250px;
+  width: 100%; }
+
+.imgNosotros {
+  margin: 10px;
+  display: inline;
+  flex-wrap: wrap; }
+
+.productList {
+  display: inline-block; }
+
+.formImg {
+  width: fit-content; }
+
+#galeria img {
+  width: 100%;
+  height: 250px; }
+
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important; }
+
+#galeria img:hover {
+  border: 5px solid #f8f8f8; }
+
+#logo {
+  border-radius: 30px;
+  height: 80px; }
