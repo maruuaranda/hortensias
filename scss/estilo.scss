@@ -15,6 +15,7 @@ header{
 p {
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 10px;
+    font-size: 25px;
 }
 form{
     @extend p;
@@ -27,6 +28,7 @@ input{
 }
 h1 {
     font: $title-font;
+    font-size: 55px;
     text-shadow: 2mm;
     margin: $text-margin;
     color: $font-color;
@@ -38,11 +40,14 @@ h1 {
 h2{
     font-family: $title-font;
     justify-self: center;
-    margin: 50px;
+    margin: 60px;
     font-size: 40px;
 }
 h3{
     font-family: $title-font;
+}
+h5{
+    color: $colorN1;
 }
 
 a{
@@ -55,10 +60,9 @@ ul{
     
 }
 footer{
-    font-style: italic;
     color: $colorN3;
     background-color: $colorN4;
-    height: 100px;
+    height: 10%;
     
     
 }
@@ -77,6 +81,7 @@ body{
     min-height: 100px;
     padding: 0px;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
 }
 .nav-link{
     margin-right: 15px;
@@ -96,18 +101,30 @@ body{
 /*Etiquetas de home*/
 
 .text-warning {
-    color: $colorN6;
+    color: $colorN6 !important;
 }
 
+.centeredTitle{
+    padding: 30px;
+    align-content: center;
 
+}
 
 .homeImg {
     width: 100%;
     animation-duration: 3s;
     animation-name: aparecer;
 }
+.Home{
+    padding: 15px;
+}
+.btn{
+    font-size: 25px;
+}
 
-
+.mask{
+    padding: 5%;
+}
 
 .container{
     padding-left: 0px;
@@ -165,7 +182,10 @@ body{
     color: #bcb3d8;
     background-color: #4f3879;
 }
-
+.text-muted{
+    padding: 10px;
+    font-size: 26px;
+}
 
 /*Etiquetas imágenes y logos*/ 
 

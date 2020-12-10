@@ -10,7 +10,8 @@ header {
 
 p, form {
   font-family: 'Open Sans Condensed', sans-serif;
-  margin: 10px; }
+  margin: 10px;
+  font-size: 25px; }
 
 input {
   padding: 5px;
@@ -19,6 +20,7 @@ input {
 
 h1 {
   font: "Roboto", Sans-serif;
+  font-size: 55px;
   text-shadow: 2mm;
   margin: 10px;
   color: black;
@@ -27,11 +29,14 @@ h1 {
 h2 {
   font-family: "Roboto", Sans-serif;
   justify-self: center;
-  margin: 50px;
+  margin: 60px;
   font-size: 40px; }
 
 h3 {
   font-family: "Roboto", Sans-serif; }
+
+h5 {
+  color: #ffb78a; }
 
 a {
   text-decoration: none;
@@ -41,10 +46,9 @@ ul {
   font-style: italic; }
 
 footer {
-  font-style: italic;
   color: #543929;
   background-color: white;
-  height: 100px; }
+  height: 10%; }
 
 body {
   background-color: #ffeade; }
@@ -55,7 +59,8 @@ body {
   background-color: white;
   min-height: 100px;
   padding: 0px;
-  font-family: 'Open Sans Condensed', sans-serif; }
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px; }
 
 .nav-link {
   margin-right: 15px;
@@ -65,19 +70,32 @@ body {
   color: black; }
 
 .navbar-toggler {
-  font-size: 12px; }
+  font-size: 25px; }
 
 .navbar-toggler:focus {
   outline: none; }
 
 /*Etiquetas de home*/
 .text-warning {
-  color: #ff7729; }
+  color: #ff7729 !important; }
+
+.centeredTitle {
+  padding: 30px;
+  align-content: center; }
 
 .homeImg {
   width: 100%;
   animation-duration: 3s;
   animation-name: aparecer; }
+
+.Home {
+  padding: 15px; }
+
+.btn {
+  font-size: 25px; }
+
+.mask {
+  padding: 5%; }
 
 .container {
   padding-left: 0px;
@@ -128,6 +146,10 @@ body {
 .formbutton {
   color: #bcb3d8;
   background-color: #4f3879; }
+
+.text-muted {
+  padding: 10px;
+  font-size: 26px; }
 
 /*Etiquetas imágenes y logos*/
 .icon {
