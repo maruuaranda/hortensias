@@ -15,6 +15,7 @@ header{
 p {
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 10px;
+    font-size: 25px;
 }
 form{
     @extend p;
@@ -31,6 +32,7 @@ h1 {
     margin: $text-margin;
     color: $font-color;
     width: 100%;
+    font-size: 55px;
 
   
 }
@@ -58,7 +60,7 @@ footer{
     font-style: italic;
     color: $colorN3;
     background-color: $colorN4;
-    height: 100px;
+    height: 10%;
     
     
 }
@@ -107,7 +109,15 @@ body{
     animation-name: aparecer;
 }
 
-
+.Home{
+    padding: 30px;
+}
+.text-warning{
+    color: $colorN6;
+}
+.btn{
+    font-size: 25px;
+}
 
 .container{
     padding-left: 0px;
